@@ -30,6 +30,7 @@ The basics are covered:
 5. Run on your local server (e.g., Laragon or XAMPP).
 
 ## Project Structure
+```
 ├── database/     # SQL dump with seed data
 ├── config/       # Genres dictionary
 ├── helpers/      # Validation, upload, and core logic
@@ -38,3 +39,4 @@ The basics are covered:
 ├── style/        # CSS
 ├── uploads/      # Poster images
 └── views/        # HTML templates
+```
