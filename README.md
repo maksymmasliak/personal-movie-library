@@ -27,7 +27,7 @@ The basics are covered:
 2. Create an empty database and import `database/database.sql`.
 3. Rename `.env.example` to `.env` and add your local database credentials.
 4. Make sure the `uploads/` directory is writable.
-5. Run on your local server (e.g., Laragon or XAMPP).
+5. Run with PHP's built-in server (`php -S localhost:8000`) or your local stack of choice (e.g., XAMPP). Make sure the `pdo_mysql` extension is enabled.
 
 ## Project Structure
 ```
